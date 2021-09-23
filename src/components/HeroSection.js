@@ -19,7 +19,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -4rem;
+    margin-bottom: -7rem;
     position: relative;
     span {
       display: inline-block;
@@ -39,7 +39,7 @@ const HeroStyles = styled.div`
     border: 5px solid var(--gray-1);
   }
   .hero__info {
-    margin-top: -10rem;
+    margin-top: 2rem;
     text-transform: capitalize;
     color: var(--yellow);
   }
@@ -164,7 +164,7 @@ export default function HeroSection() {
           <div className="hero__info">
             <PText>
               I am a Jr. web designer and developer with immense passion in
-              building elegant and eyecatching wbesite's . I love to design and
+              building elegant and eyecatching website's . I love to design and
               make new web experiences for the people.
             </PText>
             <Button btnText="see my works" btnLink="/Projects" />
