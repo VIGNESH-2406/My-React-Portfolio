@@ -8,9 +8,9 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Expense Tracker',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      'An application to track all your expenses and help you keeping a check on your monthly expenses . I developed the website and the mobile app',
     img: UTrackerImg,
   },
   {
