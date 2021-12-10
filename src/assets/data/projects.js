@@ -1,9 +1,11 @@
 import { v4 as uuidv4 } from 'uuid';
 import ProjectImg from '../images/projectImg.png';
 import UTrackerImg from '../images/utracker.jpg';
-import GreenCtgImg from '../images/greenctg.jpg';
-import CoinTrackerImg from '../images/cointracker.jpg';
-import CavinImg from '../images/cavinimg.jpg';
+// import GreenCtgImg from '../images/greenctg.jpg';
+import amazonHomepageImg from '../images/amazonHomepage.jpg';
+import AirbnbImg from '../images/Airbnb.jpg';
+import blogPostImg from '../images/blogPost.jpeg';
+import ecommerceImg from '../images/ecommerce.jpg';
 
 const projects = [
   {
@@ -15,31 +17,30 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'AirBnb clone',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
-    img: GreenCtgImg,
+      'Airbnb, is an American company that operates an online marketplace for lodging,  primarily homestays for vacation rentals, and tourism activities.',
+    img: AirbnbImg,
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Social networking app',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
-    img: CoinTrackerImg,
+      'A social networking app to connect with friends, family and other people you know. Share Real time photos and videos',
+    img: blogPostImg,
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
+    name: 'eCommerce platform',
     desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
-    img: CavinImg,
+      'A online marketplace for Top brand for Phones and Electronics & fashion.',
+    img: ecommerceImg,
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
-    desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
-    img: ProjectImg,
+    name: 'Amazon clone frontend.',
+    desc: 'Amazon clone frontend built with Next.js and tailwindCss.',
+    img: amazonHomepageImg,
   },
 ];
 

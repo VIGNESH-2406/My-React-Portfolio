@@ -19,7 +19,7 @@ const HeroStyles = styled.div`
   }
   .hero__heading {
     font-size: 2rem;
-    margin-bottom: -7rem;
+    margin-bottom: -5rem;
     position: relative;
     span {
       display: inline-block;
@@ -27,7 +27,7 @@ const HeroStyles = styled.div`
     }
     .hero__name {
       font-family: 'Montserrat SemiBold';
-      font-size: 6rem;
+      font-size: 5rem;
       color: var(--white);
     }
   }
@@ -40,8 +40,8 @@ const HeroStyles = styled.div`
   }
   .hero__info {
     margin-top: 2rem;
-    text-transform: capitalize;
-    color: var(--yellow);
+    text-transform: uppercase;
+    color: pink;
   }
   .hero__social,
   .hero__scrollDown {
@@ -106,10 +106,13 @@ const HeroStyles = styled.div`
       margin-bottom: -3rem;
       .hero__name {
         font-size: 4.5rem;
+        margin-bottom: 3rem;
       }
     }
     .hero__img {
-      height: 300px;
+      height: 150px;
+      width: 200px;
+      border-radius: 4rem;
     }
     .hero__info {
       margin-top: 3rem;
@@ -131,8 +134,8 @@ const HeroStyles = styled.div`
         ul {
           li {
             a {
-              font-size: 1.2rem;
-              margin-bottom: 1rem;
+              font-size: 5rem;
+              margin-bottom: 5rem;
             }
           }
         }
@@ -162,15 +165,17 @@ export default function HeroSection() {
             <img src={HeroImg} alt="" />
           </div>
           <div className="hero__info">
-            <PText>
-              I am a Jr. web designer and developer with immense passion in
-              building elegant and eyecatching website's . I love to design and
-              make new web experiences for the people.
-            </PText>
-            <Button btnText="see my works" btnLink="/Projects" />
+            <h1>
+              I am web developer and brand identity designer with immense
+              passion in building elegant and eyecatching websites with good
+              experience in building sleek and scalable user interface,
+              designing unique brand identities and building optimal backend
+              systems.
+            </h1>
+            <Button btnText="see my works" btn Link="/about" />
           </div>
           <div className="hero__social">
-            <div className="hero__social__indicator">
+            {/* <div className="hero__social__indicator">
               <p>Follow</p>
               <img src={SocialMediaArrow} alt="icon" />
             </div>
@@ -178,14 +183,14 @@ export default function HeroSection() {
               <ul>
                 <li>
                   <a
-                    href="https://www.facebook.com/vegnesh.paulraj/"
+                    href="https://github.com/VIGNESH-2406"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    FB
+                    Github
                   </a>
-                </li>
-                <li>
+                </li> */}
+            {/* <li>
                   <a
                     href="http://twitter.com/webcifar"
                     target="_blank"
@@ -211,9 +216,9 @@ export default function HeroSection() {
                   >
                     LI
                   </a>
-                </li>
-              </ul>
-            </div>
+                </li> */}
+            {/* </ul> */}
+            {/* </div> */}
           </div>
           <div className="hero__scrollDown">
             <p>Scroll</p>

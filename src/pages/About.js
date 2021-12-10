@@ -84,26 +84,30 @@ export default function About() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                Hi, I am <span>Vignesh</span>
+                Hi, I am <span>Vignesh Paulraj</span>
               </p>
               <h2 className="about__heading">A freelance Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Mumbai, India. A place of beauty and nature. Since
-                  my childhood, i love art and design. I always try to design
+                  I am from Bombay, India. A place of beauty and nature. Since
+                  my childhood, I love art and design. I always believe
+                  inspiration can be found in the most mundane places ,and the
+                  thought of channeling that into something tangible is
+                  something I've always been curious about and hence design
                   stuff with my unique point of view. I also love to create
-                  things that can be usefull to others.
-                  <br /> <br />
-                  I started coding since I was in high school. Coding is also an
-                  art for me. I love it and now I have the opportunity to design
-                  along with the coding. I find it really interesting and I
-                  enjoyed the process a lot.
-                  <br />
-                  <br />
-                  My vision is to make the world a better place. Now almost
-                  everything is becoming better than ever. It is time for us to
-                  create more good stuff that helps the world to become a better
-                  place.
+                  things that can be useful to others.
+                  <br /> <br />I started coding since I was in high school.
+                  Coding is also an art for me. I love it and now I have the
+                  opportunity to design along with coding. I find it really
+                  interesting and I enjoy the process a lot. My enthusiasm for
+                  music art and literature has always provided me with the food
+                  for thought, which is what I believe governs and fuels my
+                  creativity and blends into my works with meticulous care.I
+                  always try to portray and bring in everything around me to
+                  connect far-flung thoughts into a single theme which inspires
+                  and stimulates my works in every possible way hence
+                  redirecting me with unique views to build websites for the
+                  people through my design.
                 </PText>
               </div>
               <Button btnText="Download CV" btnLink="#" />
@@ -131,15 +135,25 @@ export default function About() {
 
               <AboutInfoItem
                 title="FrontEnd"
-                items={['HTML', 'CSS', 'JavaScript', 'REACT', 'Bootstrap']}
+                items={[
+                  'HTML',
+                  'CSS',
+                  'JavaScript',
+                  'REACT.js',
+                  'Redux',
+                  'Bootstrap',
+                  'tailwindcss',
+                  'NEXT.js',
+                ]}
               />
               <AboutInfoItem
                 title="BackEnd"
-                items={['Node', 'Express', 'MongoDB']}
+                items={['Node.js', 'Express', 'MongoDB', 'MySql', 'AWS']}
               />
+
               <AboutInfoItem
-                title="Design"
-                items={['Photoshop', 'After Effects', 'Figma']}
+                title="Work skills"
+                items={['Creative', 'Determined', 'Reliability', 'Team work']}
               />
             </div>
           </div>

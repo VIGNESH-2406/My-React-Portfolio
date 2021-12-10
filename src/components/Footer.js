@@ -59,7 +59,7 @@ export default function Footer() {
         <div className="footer__col1">
           <h1 className="footer__col1__title">Vignesh Paulraj</h1>
           <PText>
-            A web designer and developer from Mumbai, India. I always make
+            A web designer and developer from Bombay, India. I always make
             websites that have unique designs and also has a good performance
             rate.
           </PText>
@@ -81,7 +81,7 @@ export default function Footer() {
               {
                 type: 'Link',
                 title: 'Projects',
-                path: '/projects',
+                path: '/project',
               },
               {
                 type: 'Link',
@@ -111,7 +111,7 @@ export default function Footer() {
           />
         </div>
         <div className="footer__col4">
-          <FooterCol
+          {/* <FooterCol
             heading="social Links"
             links={[
               {
@@ -124,7 +124,7 @@ export default function Footer() {
                 path: 'https://www.instagram.com/vigneshpaulraj/',
               },
             ]}
-          />
+          /> */}
         </div>
       </div>
       <div className="copyright">

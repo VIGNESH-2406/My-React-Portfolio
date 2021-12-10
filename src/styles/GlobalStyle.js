@@ -13,13 +13,14 @@ const GlobalStyles = createGlobalStyle`
     --gray-2: #363636;
     --white : white;
     --black: black; 
-    --yellow: yellow;
+    --yellow: #FFFF00;
+
 
   }
   html{
     font-size: 10px;
     font-family: 'Roboto Mono';
-    background-color: var(--dark-bg);
+    background:var(--dark-bg)
   }
   ul,li{
     list-style: none;

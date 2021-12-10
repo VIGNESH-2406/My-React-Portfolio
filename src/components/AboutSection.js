@@ -13,6 +13,16 @@ const AboutSectionStyles = styled.div`
     justify-content: flex-start;
     text-align: left;
   }
+  .line {
+    height: 5px;
+    width: 100%;
+    background-color: white;
+    transform: translateY(20px);
+  }
+  .line__container {
+    display: flex;
+    align-items: center;
+  }
   .aboutSection__left,
   .aboutSection__right {
     flex: 1;
@@ -75,17 +85,24 @@ export default function AboutSection() {
     <AboutSectionStyles>
       <div className="container">
         <div className="aboutSection__left">
-          <SectionTitle
-            subheading="Let me introduce myself"
-            heading="About Me"
-          />
+          <div className="line__container">
+            <SectionTitle
+              subheading="Let me introduce myself"
+              heading="About Me"
+            />
+            <div className="line"> </div>
+          </div>
           <PText>
-            I am a freelance website designer and developer from Mumbai, India.
-            I create professional websites. I love art and always try to show
-            unique views to the audience through my design.
+            I am a freelance website designer and developer from Bombay, India.
+            I create professional websites which are logical and results-driven
+            I'm dedicated to building and optimizing user-focused and for users
+            with various business objectives. Judicious and creative when
+            crafting effective websites, apps and platforms to propel
+            competitive advantage and revenue growth. Technically proficient and
+            analytical problem solver with calm and focused demeanor.
           </PText>
           <div className="aboutSection__buttons">
-            <Button btnText="Works" btnLink="/projects" />
+            <Button btnText="Works" btnLink="/project" />
             <Button btnText="Read More" btnLink="/about" outline />
           </div>
         </div>

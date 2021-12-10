@@ -7,6 +7,11 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import SingleProject from './pages/SingleProject';
+import ExpenseTracker from './pages/ExpenseTracker';
+import SocialNetworking from './pages/SocialNetworking';
+import ECommerce from './pages/ECommerce';
+import AmazonClone from './pages/AmazonClone';
 
 export default function App() {
   return (
@@ -15,6 +20,21 @@ export default function App() {
         <NavMenu />
         <ScrollToTop />
         <Switch>
+          <Route path="/singleProject">
+            <SingleProject />
+          </Route>
+          <Route path="/AmazonClone">
+            <AmazonClone />
+          </Route>
+          <Route path="/eCommerce">
+            <ECommerce />
+          </Route>
+          <Route path="/socialNetworking">
+            <SocialNetworking />
+          </Route>
+          <Route path="/ExpenseTracker">
+            <ExpenseTracker />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
