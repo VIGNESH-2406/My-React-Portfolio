@@ -129,6 +129,10 @@ export default function About() {
                 items={['Bharthi vidyapeeth college of Engineering']}
               />
               <AboutInfoItem title="University" items={['Mumbai University']} />
+              <AboutInfoItem
+                title="Certification"
+                items={['Fullstack development IIT-Madras']}
+              />
             </div>
             <div className="about__info__item">
               <h1 className="about__info__heading">My Skills</h1>
@@ -141,9 +145,9 @@ export default function About() {
                   'JavaScript',
                   'REACT.js',
                   'Redux',
+                  'NEXT.js',
                   'Bootstrap',
                   'tailwindcss',
-                  'NEXT.js',
                 ]}
               />
               <AboutInfoItem

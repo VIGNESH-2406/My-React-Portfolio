@@ -7,11 +7,12 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import SingleProject from './pages/SingleProject';
+
 import ExpenseTracker from './pages/ExpenseTracker';
 import SocialNetworking from './pages/SocialNetworking';
 import ECommerce from './pages/ECommerce';
 import AmazonClone from './pages/AmazonClone';
+import Airbnb from './pages/Airbnb';
 
 export default function App() {
   return (
@@ -20,8 +21,8 @@ export default function App() {
         <NavMenu />
         <ScrollToTop />
         <Switch>
-          <Route path="/singleProject">
-            <SingleProject />
+          <Route path="/Airbnb">
+            <Airbnb />
           </Route>
           <Route path="/AmazonClone">
             <AmazonClone />

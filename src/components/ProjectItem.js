@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import ProjectImg from '../assets/images/projectImg.png';
+import Button from './Button';
 
 const ProjectItemStyles = styled.div`
   .projectItem__img {
@@ -29,6 +30,11 @@ const ProjectItemStyles = styled.div`
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
   }
+  a {
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+  }
   @media only screen and (max-width: 768px) {
     .projectItem__img {
       height: 350px;
@@ -40,6 +46,8 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
+  url = 'http://github.com',
+  page = '/',
 }) {
   return (
     <ProjectItemStyles>
@@ -51,6 +59,9 @@ export default function ProjectItem({
           <h3 className="projectItem__title">{title}</h3>
         </Link>
         <p className="projectItem__desc">{desc}</p>
+        <div>
+          <Button btnText="view build" btnLink={page} />
+        </div>
       </div>
     </ProjectItemStyles>
   );

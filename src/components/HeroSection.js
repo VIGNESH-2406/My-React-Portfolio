@@ -172,7 +172,7 @@ export default function HeroSection() {
               designing unique brand identities and building optimal backend
               systems.
             </h1>
-            <Button btnText="see my works" btn Link="/about" />
+            <Button btnText="see my works" btnLink="/project" />
           </div>
           <div className="hero__social">
             {/* <div className="hero__social__indicator">

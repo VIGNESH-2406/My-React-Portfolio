@@ -112,7 +112,7 @@ export default function eCommerce() {
               </div>
               <a
                 className=" font-size: 10rem;"
-                href="https://airbnb-frontend-ashy.vercel.app/"
+                href="https://vista-shop.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >

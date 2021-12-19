@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import PText from '../components/PText';
-import Button from '../components/Button';
+
 import AirbnbImg from '../assets/images/Airbnb.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -83,7 +82,7 @@ const SingleProductPageStyles = styled.div`
   }
 `;
 
-export default function SingleProject() {
+export default function Airbnb() {
   return (
     <>
       <SingleProductPageStyles>

@@ -55,6 +55,7 @@ const SingleProductPageStyles = styled.div`
   .about__info__heading {
     font-size: 3.6rem;
     text-transform: uppercase;
+    color: white;
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
@@ -64,6 +65,7 @@ const SingleProductPageStyles = styled.div`
     }
     .about__subheading {
       font-size: 1.8rem;
+      color: white;
     }
     .about__heading {
       font-size: 2.8rem;
@@ -76,6 +78,7 @@ const SingleProductPageStyles = styled.div`
     display: inline-block;
     font-size: 3rem;
     letter-spacing: 5px;
+    color: white
     margin-bottom: 2rem;
     text-decoration: underline;
   }
