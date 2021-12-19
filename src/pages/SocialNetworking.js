@@ -110,7 +110,7 @@ export default function SocialNetworking() {
                 </div>
               </div>
               <a
-                className=" font-size: 10rem;"
+                className="font-size: 10rem;"
                 href="https://airbnb-frontend-ashy.vercel.app/"
                 target="_blank"
                 rel="noreferrer"

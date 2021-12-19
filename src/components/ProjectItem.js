@@ -46,7 +46,6 @@ export default function ProjectItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-  url = 'http://github.com',
   page = '/',
 }) {
   return (

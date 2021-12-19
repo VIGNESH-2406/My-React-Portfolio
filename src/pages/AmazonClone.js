@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import PText from '../components/PText';
-import Button from '../components/Button';
 import amazonHomepageImg from '../assets/images/amazonHomepage.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';

@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from 'uuid';
-import ProjectImg from '../images/projectImg.png';
+
 import UTrackerImg from '../images/utracker.jpg';
 // import GreenCtgImg from '../images/greenctg.jpg';
 import amazonHomepageImg from '../images/amazonHomepage.jpg';
