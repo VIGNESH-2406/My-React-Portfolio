@@ -93,13 +93,13 @@ export default function AboutSection() {
             <div className="line"> </div>
           </div>
           <PText>
-            I am a freelance website designer and developer from Bombay, India.
-            I create professional websites which are logical and results-driven
-            I'm dedicated to building and optimizing user-focused and for users
-            with various business objectives. Judicious and creative when
-            crafting effective websites, apps and platforms to propel
-            competitive advantage and revenue growth. Technically proficient and
-            analytical problem solver with calm and focused demeanor.
+            I am a website designer and developer from Bombay, India. I create
+            professional websites which are logical and results-driven I'm
+            dedicated to building and optimizing user-focused and for users with
+            various business objectives. Judicious and creative when crafting
+            effective websites, apps and platforms to propel competitive
+            advantage and revenue growth. Technically proficient and analytical
+            problem solver with calm and focused demeanor.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnText="Works" btnLink="/project" />

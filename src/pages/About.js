@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import PText from '../components/PText';
-import Button from '../components/Button';
 import AboutImg from '../assets/images/hero2.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
@@ -90,7 +89,7 @@ export default function About() {
               <p className="about__subheading">
                 Hi, I am <span>Vignesh Paulraj</span>
               </p>
-              <h2 className="about__heading">A freelance Web developer</h2>
+              <h2 className="about__heading">A Full Stack Web developer</h2>
               <div className="about__info">
                 <PText>
                   I am from Bombay, India. A place of beauty and nature. Since
@@ -143,7 +142,7 @@ export default function About() {
               <AboutInfoItem title="University" items={['Mumbai University']} />
               <AboutInfoItem
                 title="Certification"
-                items={['Fullstack development IIT-Madras']}
+                items={['Fullstack Web development IIT-M']}
               />
             </div>
             <div className="about__info__item">
