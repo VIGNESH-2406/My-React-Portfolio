@@ -6,8 +6,11 @@ const ButtonStyle = styled.div`
   margin-top: 2rem;
   .button {
     font-size: 2.2rem;
-    background-color: ${(props) =>
-      props.outline ? 'transperant' : 'var(--gray-1)'};
+    background-color: linear-gradient(
+      to bottom right,
+      #cc00cc 0%,
+      #33ccff 100%
+    );
     padding: 0.7em 2em;
     border: 2px solid var(--gray-1);
     border-radius: 8px;

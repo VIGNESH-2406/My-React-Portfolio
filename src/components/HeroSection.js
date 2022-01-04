@@ -24,7 +24,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Montserrat SemiBold';
+      font-family: 'Georgia, serif;';
       font-size: 5rem;
       color: var(--white);
     }
@@ -32,9 +32,10 @@ const HeroStyles = styled.div`
   .hero__img {
     max-width: 300px;
     width: 100%;
-    height: 600px;
+    height: 400px;
     margin: 0 auto;
     border: 5px solid var(--gray-1);
+    /* hover:  */
   }
   .hero__info {
     margin-top: 2rem;
@@ -110,6 +111,7 @@ const HeroStyles = styled.div`
     .hero__img {
       height: 150px;
       width: 200px;
+
       border-radius: 4rem;
     }
     .hero__info {
@@ -155,20 +157,29 @@ export default function HeroSection() {
     <HeroStyles>
       <div className="hero">
         <div className="container">
-          <h1 className="hero__heading">
-            <span>Hello, This is</span>
-            <span className="hero__name">Vignesh Paulraj</span>
-          </h1>
+          <br />
+
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>
+          <h1 className="hero__heading">
+            <span>Hey There !</span>
+            <span className="hero__name">I'm VIGNESH PAULRAJ</span>
+          </h1>
+          <br />
+          <br />
+          <br />
+          <br />
           <div className="hero__info">
             <h1>
-              I am web developer and brand identity designer with immense
-              passion in building elegant and eyecatching websites with good
-              experience in building sleek and scalable user interface,
-              designing unique brand identities and building optimal backend
-              systems.
+              A web developer and brand identity designer with immense passion
+              in building elegant and eyecatching websites with good experience
+              in building sleek and scalable user interface, designing unique
+              brand identities and building optimal backend systems.
             </h1>
             <Button btnText="see my works" btnLink="/project" />
           </div>

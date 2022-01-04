@@ -59,6 +59,18 @@ export default function Map() {
             Open in google map
           </a>
         </div>
+        <div className="map__card">
+          <h3 className="map__card__heading">view site</h3>
+          <PText>Palava City ,Bombay, India</PText>
+          <a
+            className="map__card__link"
+            href="https://www.google.com/maps/place/Casa+Bella+Gold,+Palava+City/@19.1687942,73.0743923,17z/data=!4m14!1m8!3m7!1s0x3be7bfe69bd40f27:0x664f270254eaadc2!2sCasa+Bella+Gold,+Palava+City!8m2!3d19.1687301!4d73.0741872!14m1!1BCgIgAQ!3m4!1s0x3be7bfe69bd40f27:0x664f270254eaadc2!8m2!3d19.1687301!4d73.0741872"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Open in google map
+          </a>
+        </div>
       </div>
       {/* <img src={MapImg} alt="Map" /> */}
     </MapStyles>

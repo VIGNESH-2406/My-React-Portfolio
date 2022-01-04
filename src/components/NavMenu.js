@@ -65,6 +65,7 @@ const NavMenuStyles = styled.div`
 
     .navItems {
       --top: 1rem;
+
       transition: 0.7s ease transform;
       background-color: var(--deep-dark);
       padding: 2rem;

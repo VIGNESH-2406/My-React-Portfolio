@@ -4,6 +4,7 @@ import PText from '../components/PText';
 import AboutImg from '../assets/images/hero2.jpg';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
+import Button from '../components/Button';
 
 const AboutPageStyles = styled.div`
   padding: 20rem 0 10rem 0;
@@ -59,7 +60,7 @@ const AboutPageStyles = styled.div`
   }
   a {
     font-size: 3rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
   @media only screen and (max-width: 768px) {
     padding: 10rem 0;
@@ -122,6 +123,20 @@ export default function About() {
               >
                 View Résumé
               </a>
+              <div>
+                <Button
+                  btnText="View Résumé"
+                  btnLink="https://docs.google.com/document/d/1Il019Shk6pH0FhrJk5blSLvFmYJTetXSHz7iQOhhbp0/edit#"
+                />
+                {/* <a
+                  className=" font-size: 10rem;"
+                  href="https://docs.google.com/document/d/1Il019Shk6pH0FhrJk5blSLvFmYJTetXSHz7iQOhhbp0/edit#"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View Résumé
+                </a> */}
+              </div>
             </div>
             <div className="right">
               <img src={AboutImg} alt="me" />

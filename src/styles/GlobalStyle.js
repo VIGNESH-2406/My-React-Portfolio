@@ -7,19 +7,19 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: #262626;
-    --gray-1: #BCB4B4;
-    --deep-dark: #1E1E1E;
-    --gray-2: #363636;
-    --white : white;
-    --black: black; 
-    --yellow: #FFFF00;
+    --dark-bg: linear-gradient(to left, #3333cc 0%, #ffffcc 100%);/*BG */
+    --gray-1: #ffffff;/* DESCRIPTION ,CNTCT BTN */
+    --deep-dark:linear-gradient(to bottom right, #cc00cc 0%, #33ccff 100%);  /* nav-hover, form bg,FOOTER */
+    --gray-2: #11052C;/* HERO BORDER ,CNTCT FORM ICON  */
+    --white : #0F0A3C;/* NAME */
+    --black: #0092CA; /* SEND BTN  */
+    
 
 
   }
   html{
     font-size: 10px;
-    font-family: 'Roboto Mono';
+    font-family: 'Cheque';
     background:var(--dark-bg)
   }
   ul,li{

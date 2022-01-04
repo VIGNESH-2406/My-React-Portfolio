@@ -78,7 +78,7 @@ const SingleProductPageStyles = styled.div`
     font-size: 3rem;
     letter-spacing: 5px;
     margin-bottom: 2rem;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 `;
 
@@ -90,7 +90,7 @@ export default function Airbnb() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                This is <span>Airbnb clone</span>
+                This is <span>Hotel Booking Platform</span>
               </p>
               <h1 className="about__info__heading">Built With</h1>
               <div className="about__info__items">
