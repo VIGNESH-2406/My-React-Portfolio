@@ -39,7 +39,7 @@ const AboutItemStyles = styled.div`
 
 export default function AboutInfoItem({
   title = 'Title',
-  items = ['HTML', 'CSS'],
+  items = ['HTML', 'CSS', 'React.js', 'Redux'],
 }) {
   return (
     <AboutItemStyles>
