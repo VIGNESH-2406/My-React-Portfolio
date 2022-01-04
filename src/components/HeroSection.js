@@ -24,7 +24,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'Georgia, serif;';
+      font-family: 'arial';
       font-size: 5rem;
       color: var(--white);
     }

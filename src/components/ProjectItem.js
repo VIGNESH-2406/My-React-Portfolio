@@ -31,8 +31,8 @@ const ProjectItemStyles = styled.div`
     margin-top: 1rem;
   }
   a {
-    font-size: 2rem;
-    text-decoration: underline;
+    font-size: 5rem;
+    /* text-decoration: underline; */
     color: white;
   }
   @media only screen and (max-width: 768px) {
