@@ -42,7 +42,7 @@ const projects = [
     id: uuidv4(),
     name: 'Social Networking App',
     desc:
-      'IMPRESSIONS, A Social Blog Post app to connect with friends & family, Share photos and post likes and comments',
+      'IMPRESSIONS, A Social Blog Post app to connect with friends & family, Share photos and add likes and comments',
     img: blogPostImg,
     url: 'https://impressionz.herokuapp.com/',
     page: 'SocialNetworking',

@@ -60,6 +60,9 @@ const AboutPageStyles = styled.div`
   }
   a {
     font-size: 3rem;
+    border: 1px solid #000066;
+    padding: 10px;
+    border-radius: 2rem;
     /* text-decoration: underline; */
   }
   @media only screen and (max-width: 768px) {
@@ -93,13 +96,12 @@ export default function About() {
               <h2 className="about__heading">A Full Stack Web developer</h2>
               <div className="about__info">
                 <PText>
-                  I am from Bombay, India. A place of beauty and nature. Since
-                  my childhood, I love art and design. I always believe
-                  inspiration can be found in the most mundane places ,and the
-                  thought of channeling that into something tangible is
-                  something I've always been curious about and hence design
-                  stuff with my unique point of view. I also love to create
-                  things that can be useful to others.
+                  I am from Bombay, India, Since my childhood, I love art and
+                  design. I always believe inspiration can be found in the most
+                  mundane places ,and the thought of channeling that into
+                  something tangible is something I've always been curious about
+                  and hence design stuff with my unique point of view. I also
+                  love to create things that can be useful to others.
                   <br /> <br />I started coding since I was in high school.
                   Coding is also an art for me. I love it and now I have the
                   opportunity to design along with coding. I find it really
@@ -114,28 +116,19 @@ export default function About() {
                   people through my design.
                 </PText>
               </div>
-
-              <a
-                className=" font-size: 10rem;"
-                href="https://docs.google.com/document/d/1Il019Shk6pH0FhrJk5blSLvFmYJTetXSHz7iQOhhbp0/edit#"
-                target="_blank"
-                rel="noreferrer"
-              >
-                View Résumé
-              </a>
               <div>
-                <Button
+                {/* <Button
                   btnText="View Résumé"
                   btnLink="https://docs.google.com/document/d/1Il019Shk6pH0FhrJk5blSLvFmYJTetXSHz7iQOhhbp0/edit#"
-                />
-                {/* <a
+                /> */}
+                <a
                   className=" font-size: 10rem;"
-                  href="https://docs.google.com/document/d/1Il019Shk6pH0FhrJk5blSLvFmYJTetXSHz7iQOhhbp0/edit#"
+                  href="https://drive.google.com/file/d/1aAAEtFztpxLZtdzoDNWfejBjn5WxXFVB/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer"
                 >
                   View Résumé
-                </a> */}
+                </a>
               </div>
             </div>
             <div className="right">

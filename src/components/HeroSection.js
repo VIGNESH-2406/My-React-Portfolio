@@ -24,7 +24,7 @@ const HeroStyles = styled.div`
       width: 100%;
     }
     .hero__name {
-      font-family: 'arial';
+      font-family: ' Georgia, serif';
       font-size: 5rem;
       color: var(--white);
     }
@@ -35,6 +35,7 @@ const HeroStyles = styled.div`
     height: 400px;
     margin: 0 auto;
     border: 5px solid var(--gray-1);
+    border-radius: 1rem;
     /* hover:  */
   }
   .hero__info {
@@ -112,7 +113,7 @@ const HeroStyles = styled.div`
       height: 150px;
       width: 200px;
 
-      border-radius: 4rem;
+      border-radius: 1rem;
     }
     .hero__info {
       margin-top: 3rem;
@@ -157,12 +158,6 @@ export default function HeroSection() {
     <HeroStyles>
       <div className="hero">
         <div className="container">
-          <br />
-
-          <br />
-          <br />
-          <br />
-          <br />
           <div className="hero__img">
             <img src={HeroImg} alt="" />
           </div>

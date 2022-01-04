@@ -59,7 +59,7 @@ export default function ProjectItem({
         </Link>
         <p className="projectItem__desc">{desc}</p>
         <div>
-          <Button btnText="view build" btnLink={page} />
+          <Button btnText="View Build" btnLink={page} />
         </div>
       </div>
     </ProjectItemStyles>
