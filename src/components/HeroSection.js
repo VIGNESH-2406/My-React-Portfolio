@@ -147,7 +147,7 @@ const HeroStyles = styled.div`
       width: 20px;
       gap: 1rem;
       p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
       }
     }
   }
