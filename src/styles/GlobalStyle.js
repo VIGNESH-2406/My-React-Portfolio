@@ -7,14 +7,12 @@ const GlobalStyles = createGlobalStyle`
     box-sizing: border-box;
   }
   :root{
-    --dark-bg: linear-gradient(to left, #3333cc 0%, #ffffcc 100%);/*BG */
-    --gray-1: #ffffff;/* DESCRIPTION ,CNTCT BTN */
+   --dark-bg: linear-gradient(to left, #3333cc 0%, #ffffcc 100%);/*BG */
+    --gray-1:#000066;/* DESCRIPTION ,CNTCT BTN */
     --deep-dark:linear-gradient(to bottom right, #cc00cc 0%, #33ccff 100%);  /* nav-hover, form bg,FOOTER */
-    --gray-2: #11052C;/* HERO BORDER ,CNTCT FORM ICON  */
-    --white : #0F0A3C;/* NAME */
-    --black: #0092CA; /* SEND BTN  */
-    
-
+    --gray-2: #ffffff;/* HERO BORDER ,CNTCT FORM ICON  */
+    --white : #ffffcc;/* NAME */
+    --black: #ffffff; /* SEND BTN  */
 
   }
   html{

@@ -59,7 +59,7 @@ const projects = [
     id: uuidv4(),
     name: 'Voice-powered Expense Tracker',
     desc:
-      'An Voice powered application to track all your expenses and help you keeping a check on your expenses . I developed the website and the mobile app',
+      'A Voice powered application to track all your expenses and help you keeping a check on your expenses . I developed the website and the mobile app',
     img: uTrackerImg,
     url: 'https://v-powered-expense-tracker2021.netlify.app/',
     page: 'ExpenseTracker',
