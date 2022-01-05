@@ -2,7 +2,8 @@ import { v4 as uuidv4 } from 'uuid';
 
 // import GreenCtgImg from '../images/greenctg.jpg';
 import amazonHomepageImg from '../images/amazonHomepage.jpg';
-import AirbnbImg from '../images/Airbnb.jpg';
+
+import bestairbnbImg from '../images/best-airbnb.jpg';
 import wheelsImg from '../images/wheels.png';
 import uTrackerImg from '../images/utracker.jpg';
 import blogPostImg from '../images/blogPost.jpeg';
@@ -24,7 +25,7 @@ const projects = [
     name: 'HOTEL BOOKING PLATFORM',
     desc:
       'Airbnb, An app that operates as an online marketplace for An for lodging, primarily homestays for vacation rentals, and lodging, and tourism activities.',
-    img: AirbnbImg,
+    img: bestairbnbImg,
     url: 'https://airbnb-frontend-ashy.vercel.app/',
     page: 'Airbnb',
   },

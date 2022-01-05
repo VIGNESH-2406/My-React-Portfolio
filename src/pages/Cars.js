@@ -77,8 +77,10 @@ const SingleProductPageStyles = styled.div`
     display: inline-block;
     font-size: 3rem;
     letter-spacing: 5px;
-    margin-bottom: 2rem;
-    /* text-decoration: underline; */
+    font-size: 3rem;
+    border: 1px solid #000066;
+    padding: 10px;
+    border-radius: 2rem;
   }
 `;
 

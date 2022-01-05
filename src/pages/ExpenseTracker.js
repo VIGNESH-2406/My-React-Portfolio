@@ -75,12 +75,14 @@ const SingleProductPageStyles = styled.div`
     }
   }
   a {
-    display: inline-block;
-    font-size: 3rem;
+ font-size: 3rem;
+    
     letter-spacing: 5px;
     color: white
     margin-bottom: 2rem;
-    text-decoration: underline;
+     border: 1px solid #000066;
+    padding: 10px;
+    border-radius: 2rem;
   }
 `;
 
@@ -101,9 +103,9 @@ export default function ExpenseTracker() {
                     title="FrontEnd"
                     items={[
                       'REACT.js',
-                      'Bootstrap',
-                      'React Hooks',
+                      'React custom Hooks',
                       'Context Api',
+                      'Speechly',
                     ]}
                   />
                   <br />
