@@ -13,6 +13,7 @@ import SocialNetworking from './pages/SocialNetworking';
 import ECommerce from './pages/ECommerce';
 import AmazonClone from './pages/AmazonClone';
 import Airbnb from './pages/Airbnb';
+import Car from './pages/Cars';
 
 export default function App() {
   return (
@@ -23,6 +24,9 @@ export default function App() {
         <Switch>
           <Route path="/Airbnb">
             <Airbnb />
+          </Route>
+          <Route path="/Cars">
+            <Car />
           </Route>
           <Route path="/AmazonClone">
             <AmazonClone />

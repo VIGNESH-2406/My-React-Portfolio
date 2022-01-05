@@ -18,8 +18,9 @@ const FormStyle = styled.form`
     color: var(--gray-1);
     background-color: var(--deep-dark);
     outline: none;
-    border: none;
-    border-radius: 8px;
+    border: 1px solid #000066;
+    padding: 10px;
+    border-radius: 1rem;
     margin-top: 1rem;
   }
   textarea {

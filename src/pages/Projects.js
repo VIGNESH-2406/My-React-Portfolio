@@ -78,6 +78,7 @@ export default function Projects() {
                 value={searchText}
                 onChange={handleChange}
                 placeholder="Project Name"
+                style={{ color: '#000066' }}
               />
               <MdSearch className="searchIcon" />
             </form>
@@ -90,6 +91,7 @@ export default function Projects() {
                 desc={item.desc}
                 img={item.img}
                 url={item.url}
+                page={item.page}
               />
             ))}
             {/* <Button btnText="view build" btnLink="/Airbnb" /> */}

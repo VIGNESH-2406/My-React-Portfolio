@@ -44,6 +44,7 @@ const SingleProductPageStyles = styled.div`
       height: 500px;
       width: 550px;
       border-radius: 3rem;
+      margin-left: 300px;
     }
   }
   .about__info__items {
@@ -73,11 +74,12 @@ const SingleProductPageStyles = styled.div`
     }
   }
   a {
-    display: inline-block;
     font-size: 3rem;
     letter-spacing: 5px;
     margin-bottom: 2rem;
-    text-decoration: underline;
+    padding: 10px;
+    border: 1px solid #000066;
+    border-radius: 2rem;
   }
 `;
 
@@ -96,12 +98,7 @@ export default function AmazonClone() {
                 <div className="about__info__item">
                   <AboutInfoItem
                     title="FrontEnd"
-                    items={[
-                      'REACT.js',
-                      'Redux',
-                      'Next.js',
-                      '      TailwindCss',
-                    ]}
+                    items={['REACT.js', 'Redux', 'Next.js', 'TailwindCss']}
                   />
                   <br />
                 </div>

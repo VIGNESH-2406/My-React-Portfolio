@@ -35,7 +35,7 @@ const projects = [
       'VROOM CARS, An online car rental app for renting out and selling cars on lease.',
     img: wheelsImg,
     url: 'https://vroom-cars.herokuapp.com',
-    page: 'Airbnb',
+    page: 'Cars',
   },
 
   {

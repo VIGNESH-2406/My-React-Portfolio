@@ -74,11 +74,12 @@ const SingleProductPageStyles = styled.div`
     }
   }
   a {
-    display: inline-block;
     font-size: 3rem;
     letter-spacing: 5px;
     margin-bottom: 2rem;
-    /* text-decoration: underline; */
+    padding: 10px;
+    border: 1px solid #000066;
+    border-radius: 2rem;
   }
 `;
 

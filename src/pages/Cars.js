@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import eCommerceImg from '../assets/images/ecommerce.jpg';
+
+import wheelsImg from '../assets/images/wheels.png';
 import AboutInfoItem from '../components/AboutInfoItem';
 import ContactBanner from '../components/ContactBanner';
 
@@ -77,15 +78,11 @@ const SingleProductPageStyles = styled.div`
     font-size: 3rem;
     letter-spacing: 5px;
     margin-bottom: 2rem;
-
-    font-size: 3rem;
-    border: 1px solid #000066;
-    padding: 10px;
-    border-radius: 2rem;
+    /* text-decoration: underline; */
   }
 `;
 
-export default function eCommerce() {
+export default function Car() {
   return (
     <>
       <SingleProductPageStyles>
@@ -93,19 +90,14 @@ export default function eCommerce() {
           <div className="top-section">
             <div className="left">
               <p className="about__subheading">
-                This is a <span>eCommerce platform</span>
+                This is a<span>Car rental app</span>
               </p>
               <h1 className="about__info__heading">Built With</h1>
               <div className="about__info__items">
                 <div className="about__info__item">
                   <AboutInfoItem
                     title="FrontEnd"
-                    items={[
-                      'REACT.js',
-                      'Redux',
-                      'Bootstrap',
-                      'PayPal integrated',
-                    ]}
+                    items={['REACT.js', 'Redux', 'Stripe Integrated']}
                   />
                   <br />
                   <AboutInfoItem
@@ -116,7 +108,7 @@ export default function eCommerce() {
               </div>
               <a
                 className=" font-size: 10rem;"
-                href="https://vista-shop.herokuapp.com/"
+                href="https://vroom-cars.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -124,7 +116,7 @@ export default function eCommerce() {
               </a>
             </div>
             <div className="right">
-              <img src={eCommerceImg} alt="me" />
+              <img src={wheelsImg} alt="me" />
             </div>
           </div>
         </div>
